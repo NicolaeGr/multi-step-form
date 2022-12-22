@@ -137,3 +137,36 @@ body {
 
   padding-bottom: 2px;
 }
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 40px 86px 12px 102px;
+}
+
+#form .tab,
+#form .confirm_page {
+  display: none;
+}
+
+#form .tab {
+  gap: 56px;
+}
+
+#form .tab .tab_header .name {
+  color: var(--primary-1);
+  font-size: 2rem;
+
+  margin-bottom: 12px;
+}
+
+#form .tab .tab_header .description {
+  color: var(--neutral-1);
+  font-size: 16px;
+}
+
+#form .tab.curr {
+  display: flex;
+  flex-direction: column;
+}
